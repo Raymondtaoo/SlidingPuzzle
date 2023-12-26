@@ -25,10 +25,16 @@ The Sliding Puzzle Game is a classic puzzle game where players rearrange shuffle
 5. **Reset Game:** Click the 'Reset' button to start over.
 6. **Game Completion:** Arrange all tiles in the correct order to win.
 
+## Adding Your Images
+The game folder includes an `images` directory. You need to add your images here. Ensure that:
+- Images are named in the style of `image1.jpg`, `image2.jpg`, etc.
+- Images have a 1:1 aspect ratio for optimal display.
+
 ## File Structure
 - `main.py`: Main game script.
-- `settings.py`: Contains game settings like colours, dimensions, and game speed.
+- `settings.py`: Contains game settings like colors, dimensions, and game speed.
 - `sprite.py`: Defines the Tile, Button, and UIElement classes used in the game.
+- `images/`: Folder to place your custom images for the puzzle.
 
 ## Requirements
 - Python 3.x
