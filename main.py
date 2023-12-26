@@ -109,7 +109,7 @@ class Game:
     def load_images(self, directory):
         images = []
         for filename in os.listdir(directory):
-            if filename.endswith(('.png', '.jpg', '.jpeg')):
+            if filename.endswith(('.png', '.jpg', '.jpeg', '.PNG', '.JPG', '.JPEG')):
                 path = os.path.join(directory, filename)
                 images.append(path)
         return images
