@@ -2,3 +2,4 @@
 
 # Ignore JPEG files in images directory
 images/*.jpg
+.DS_Store
